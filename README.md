@@ -10,6 +10,9 @@ This UCP features a bunch of miscellaneous stuff.
 - World Portals
 - Unembedded Flip Panels
 - "Goal" Companion Cube
+# Wip Features
+The features are unfinished, haven't been worked on yet, or are finished but aren't in a release build.
+- Wind Pipe
 # Supported Styles
 This pack supports every style! Some items don't change depending on style because they don't need to.
 However, below is a list of items that I do intend to create style specific versions of, but haven't yet.
