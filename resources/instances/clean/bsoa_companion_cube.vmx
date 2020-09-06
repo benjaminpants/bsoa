@@ -1,0 +1,314 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8419"
+	"mapversion" "7"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "4"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "7"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_weighted_cube"
+	"allowfunnel" "1"
+	"angles" "0 0 0"
+	"CubeType" "6"
+	"Model" "models/bee2/props_ingame/p1_metal_box.mdl"
+	"NewSkins" "1"
+	"PaintPower" "4"
+	"skin" "1"
+	"targetname" "uh oh"
+	connections
+	{
+		"OnFizzled" "hurt_triggerEnable0-1"
+		"OnPlayerPickup" "save_or_nahTest0-1"
+		"OnPainted" "gel_or_nahTest0-1"
+	}
+	"origin" "0 0 -61"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "4"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "reference_thing"
+	"origin" "-51.5485 0 -5"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "second_reference_thing"
+	"origin" "-51.5485 0 -5"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "8"
+	"classname" "logic_measure_movement"
+	"MeasureReference" "reference_thing"
+	"MeasureTarget" "!player"
+	"MeasureType" "1"
+	"Target" "second_reference_thing"
+	"targetname" "measure_brush_thingy"
+	"TargetReference" "reference_thing"
+	"TargetScale" "1"
+	"origin" "27.5485 -4.284 -40"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "10"
+	"classname" "trigger_hurt"
+	"damage" "10000"
+	"damagecap" "10000"
+	"damagemodel" "0"
+	"damagetype" "256"
+	"nodmgforce" "1"
+	"origin" "-56 4 -20.5"
+	"parentname" "second_reference_thing"
+	"spawnflags" "4097"
+	"StartDisabled" "1"
+	"targetname" "hurt_trigger"
+	solid
+	{
+		"id" "11"
+		side
+		{
+			"id" "1"
+			"plane" "(-83.5469 -32 59) (-83.5469 32 59) (-19.5477 32 59)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 14.194] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-83.5469 32 -100) (-83.5469 -32 -100) (-19.5477 -32 -100)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 14.194] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-83.5485 -32 -100) (-83.5485 32 -100) (-83.5485 32 59)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -20] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(-19.5485 32 -100) (-19.5485 -32 -100) (-19.5485 -32 59)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -20] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(-83.5469 32 -100) (-19.5485 32 -100) (-19.5469 32 59)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 14.194] 0.25"
+			"vaxis" "[0 0 -1 -20] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(-19.5469 -32 -100) (-83.5469 -32 -100) (-83.5469 -32 59)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 14.194] 0.25"
+			"vaxis" "[0 0 -1 -20] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "13"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "measure_brush_thingyEnable0-1"
+	}
+	"origin" "12.4515 32 -37"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "136"
+	"classname" "func_instance_parms"
+	"parm1" "$start_locked boolean 0"
+	"parm2" "$start_reversed boolean 0"
+	"origin" "8 0 -68"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "145"
+	"classname" "logic_branch"
+	"InitialValue" "$start_reversed"
+	"targetname" "gel_or_nah"
+	connections
+	{
+		"OnTrue" "uh ohDissolve0-1"
+	}
+	"origin" "8 -24 -68"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "158"
+	"classname" "game_end"
+	"targetname" "win"
+	"origin" "28 -24 -68"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "170"
+	"classname" "logic_branch"
+	"InitialValue" "$start_locked"
+	"targetname" "save_or_nah"
+	connections
+	{
+		"OnTrue" "saveSave0-1"
+	}
+	"origin" "8 -40 -68"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "198"
+	"classname" "logic_autosave"
+	"targetname" "save"
+	"origin" "-12 -40 -68"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
