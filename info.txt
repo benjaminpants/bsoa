@@ -50,6 +50,27 @@
 
 "Item"
 {
+        "ID" "ITEM_BSOA_WINDTUBE"
+        "Version"
+		{
+			"ID" 	"VER_DEFAULT"
+			"Name" "Regular"
+            "Styles"
+			{
+                "BEE2_CLEAN" "clean/bsoa_wind_tube"
+				"BEE2_OVERGROWN" "overgrown/bsoa_wind_tube"
+				"BEE2_PORTAL_1" "p1/bsoa_wind_tube"
+				"BEE2_1950s" "1950s/bsoa_wind_tube"
+				"BEE2_1960s" "1950s/bsoa_wind_tube"
+				"BEE2_1970s" "1950s/bsoa_wind_tube"
+				"BEE2_1980s" "1950s/bsoa_wind_tube"
+				"BEE2_BTS" "bts/bsoa_wind_tube"
+			}
+		}
+}
+
+"Item"
+{
         "ID" "ITEM_BSOA_BOMB_TARGET"
         "Version"
 		{
