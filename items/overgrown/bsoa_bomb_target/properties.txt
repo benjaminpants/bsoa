@@ -1,0 +1,17 @@
+"Properties"
+	{
+	"Authors"		"MissingTextureMan101"
+	"Tags"			"BSOA;Test Elements"
+	"Description" 
+	{
+		"" "A target that can only be exploded, usually by bombs from a bomb dropper."
+		"" ""
+		"" "* The overgrown variant uses 3 more entities"
+	}
+	"infoURL"		"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+	"Ent_count"     "9"
+	"Icon"
+		{
+			"0"	"bsoa_bombtarget"
+		}
+	}

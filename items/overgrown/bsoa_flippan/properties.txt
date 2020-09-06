@@ -1,0 +1,12 @@
+"Properties"
+	{
+	"Authors"		"MissingTextureMan101"
+	"Tags"			"BSOA;Test Elements"
+	"Description"	"A flip panel that can be placed in the middle of the room."
+	"infoURL"		"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+	"Ent_count"     "3"
+	"Icon"
+		{
+			"0"	"bsoa_flippan"
+		}
+	}

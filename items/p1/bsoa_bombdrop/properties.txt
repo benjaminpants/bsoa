@@ -1,0 +1,17 @@
+"Properties"
+	{
+	"Authors"		"MissingTextureMan101"
+	"Tags"			"BSOA;Test Elements"
+	"Description" 
+	{
+		"" "A dropper that drops bombs."
+		"" ""
+		"" "**Start Enabled** Makes it start dropping bombs by default."
+	}
+	"infoURL"		"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+	"Ent_count"     "11"
+	"Icon"
+		{
+			"0"	"bsoa_bombdropper"
+		}
+	}

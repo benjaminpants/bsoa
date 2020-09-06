@@ -1,0 +1,20 @@
+"Properties"
+	{
+	"Authors"		"MissingTextureMan101"
+	"Tags"			"BSOA;Test Elements"
+	"Description" 
+	{
+		"" "A disc reader."
+		"" "It's a disc reader."
+	}
+	"infoURL"		"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+	"Ent_count"     "8"
+	"Icon"
+		{
+			"0"	"bsoa_disk"
+			"1"	"bsoa_disk"
+			"2"	"bsoa_disk"
+			"3"	"bsoa_disk"
+			"4"	"bsoa_disk"
+		}
+	}

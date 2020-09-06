@@ -1,0 +1,71 @@
+"Item"
+{
+	"Type"		"ITEM_BSOA_COMPANION"
+	"Editor"
+	{
+		"SubType"
+		{
+			"Name"		"(Goal) Companion Cube"
+			"Model"
+			{
+				"ModelName"		"cubecompanion.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"		"GOAL COMPANION CUBE"
+				"Image" 		"palette/clean/bsoa_companion.png"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceCube"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
+				"SOUND_DELETED"					"P2Editor.RemoveCube"
+			}
+			"Animations"
+			{
+				"ANIM_IDLE"							"0"
+				"ANIM_EDITING_ACTIVATE"				"2"
+				"ANIM_EDITING_DEACTIVATE"			"3"
+				"ANIM_FALLING_IDLE"					"1"
+				"ANIM_FALLING_EDITING_ACTIVATE"		"4"
+				"ANIM_FALLING_EDITING_DEACTIVATE"	"5"
+				"ANIM_FALLING_TO_GROUND"			"7"
+				"ANIM_GROUND_TO_FALLING"			"9"
+				"ANIM_FALLING_TO_GROUND_EDITING"	"6"
+				"ANIM_GROUND_TO_FALLING_EDITING"	"8"
+			}
+		}
+		"MovementHandle" "HANDLE_8_POSITIONS"
+		"InvalidSurface" "WALL CEILING"
+		"DesiredFacing" "DESIRES_ANYTHING"
+	}
+	"Properties"
+	{
+		"StartLocked"
+		{
+			"DefaultValue"		"0"
+			"Index"		"1"
+		}
+		"StartReversed"
+		{
+			"DefaultValue"		"0"
+			"Index"		"2"
+		}
+	}
+	"Exporting"
+	{
+		"Instances"
+		{
+			"0"
+			{
+				"Name" 	"instances/BEE2/clean/bsoa_companion_cube.vmf"
+				"EntityCount" 	"10"
+				"BrushCount" 	"1"
+				"BrushSideCount" 	"6"
+			}
+		}
+		"TargetName" 	"bsoa_companion"
+		"Offset"  	"64 64 64"
+	}
+}

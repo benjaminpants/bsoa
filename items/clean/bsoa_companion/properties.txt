@@ -1,0 +1,19 @@
+"Properties"
+	{
+	"Authors"		"MissingTextureMan101"
+	"Tags"			"BSOA;Test Elements"
+	"Description" 
+	{
+		"" "A companion cube that kills the player if it gets destroyed."
+		"" "It appears as a Portal 1 cube in every gamestyle."
+		"" ""
+		"" "* **Start Locked** if enabled, makes it so the game auto-saves everytime the player picks up the cube."
+		"" "* **Start Reversed** if enabled, causes gel to dissolve the cube."
+	}
+	"infoURL"		"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+	"Ent_count"     "10"
+	"Icon"
+		{
+			"0"	"bsoa_companion"
+		}
+	}

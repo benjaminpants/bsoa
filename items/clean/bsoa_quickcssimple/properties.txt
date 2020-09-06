@@ -1,0 +1,18 @@
+"Properties"
+	{
+	"Authors"		"MissingTextureMan101"
+	"Tags"			"BSOA;Test Elements"
+	"Description" 
+	{
+		"" "A compact cube spawner, useful for situtations where you don't want an entire "
+		"" ""
+		"" "* **Start Reversed** when disabled will get rid of the base.(On Overgrown, this removes all of the foliage and rubble as well)"
+		"" "* **The Simple Variant only allows for normal cubes, but uses a lot less entities**"
+	}
+	"infoURL"		"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+	"Ent_count"     "25"
+	"Icon"
+		{
+			"0"	"bsoa_quickcs"
+		}
+	}

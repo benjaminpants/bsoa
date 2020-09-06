@@ -1,0 +1,22 @@
+"Properties"
+	{
+	"Authors"		"MissingTextureMan101"
+	"Tags"			"BSOA;Test Elements"
+	"Description" 
+	{
+		"" "A disc."
+		"" "It's cube type determines it's color."
+		"" ""
+		"" "* **Creating more then one of these spawners is not recommended, it causes weird respawning behavior!**"
+	}
+	"infoURL"		"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+	"Ent_count"     "10"
+	"Icon"
+		{
+			"0"	"bsoa_disc"
+			"1"	"bsoa_disc"
+			"2"	"bsoa_disc"
+			"3"	"bsoa_disc"
+			"4"	"bsoa_disc"
+		}
+	}
