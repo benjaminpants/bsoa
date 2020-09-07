@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "3"
+	"mapversion" "6"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,13 +20,35 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "3"
+	"mapversion" "6"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxblobcount" "250"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "69"
+	"classname" "logic_timer"
+	"angles" "0 0 0"
+	"refiretime" "5"
+	"startdisabled" "1"
+	"targetname" "timer"
+	connections
+	{
+		"OnTimer" "start_sparkingTest5-1"
+		"OnTimer" "timerDisable0-1"
+	}
+	"origin" "128 0 64"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
 }
 entity
 {
@@ -97,8 +119,9 @@ entity
 	{
 		"OnStartTouch" "funnelEnable0-1"
 		"OnStartTouch" "start_sparkingSetValue10-1"
-		"OnStartTouch" "start_sparkingTest5-1"
 		"OnStartTouch" "iomanagerFireUser10-1"
+		"OnStartTouch" "timerResetTimer0-1"
+		"OnStartTouch" "timerEnable0-1"
 	}
 	solid
 	{
@@ -343,7 +366,7 @@ entity
 	"angles" "-15 0 0"
 	"magnitude" "1"
 	"maxdelay" "0.5"
-	"parentname" "viewmodel"
+	"parentname" "viewmodell"
 	"spawnflags" "512"
 	"targetname" "sparkz"
 	"traillength" "1"
