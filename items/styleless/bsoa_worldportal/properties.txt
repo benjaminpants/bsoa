@@ -8,7 +8,8 @@
 		"" ""
 		"" "* It is recommended you set the **Connection Visibility** to none."
 		"" "* Keeping the lighting consistent between both ends is recommended."
-		"" "* > Do not try connecting these with the centered version!"
+		"" "* Do not try connecting these with the centered version."
+		"" "* > There is a default limit of two worldportals rendered at once for singleplayer chambers! Please keep your worldportals seperated far enough for this to not happen!"
 	}
 	"infoURL"		"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 	"Ent_count"     "3"
