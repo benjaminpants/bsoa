@@ -73,6 +73,13 @@
 		"Styles"
 		{	
 			"BEE2_CLEAN" "clean/bsoa_funnelsurface"
+			"BEE2_OVERGROWN" "overgrown/bsoa_funnelsurface"
+			"BEE2_PORTAL_1" "p1/bsoa_funnelsurface"
+			"BEE2_BTS" "1970s/bsoa_funnelsurface"
+			"BEE2_1950s" "1950s/bsoa_funnelsurface"
+			"BEE2_1960s" "1950s/bsoa_funnelsurface"
+			"BEE2_1970s" "1970s/bsoa_funnelsurface"
+			"BEE2_1980s" "1970s/bsoa_funnelsurface"
 		}
 	}
 }
