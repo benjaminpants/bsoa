@@ -48,6 +48,35 @@
 		}
 }
 
+
+"Item"
+{
+	"ID"	"ITEM_BSOA_MISC_GUN"
+	"Version"
+	{
+		"ID" "VER_DEFAULT"
+		"Name" "Misc Guns"
+		"Styles"
+		{	
+			"BEE2_CLEAN" "styleless/bsoa_misc_gun"
+		}
+	}
+}
+
+"Item"
+{
+	"ID"	"ITEM_BSOA_FUNNEL_SURFACE"
+	"Version"
+	{
+		"ID" "VER_DEFAULT"
+		"Name" "Default"
+		"Styles"
+		{	
+			"BEE2_CLEAN" "clean/bsoa_funnelsurface"
+		}
+	}
+}
+
 "Item"
 {
         "ID" "ITEM_BSOA_WINDTUBE"
