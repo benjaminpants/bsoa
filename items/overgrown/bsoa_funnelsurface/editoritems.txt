@@ -1,0 +1,48 @@
+"Item"
+{
+	"Type"		"ITEM_BSOA_FUNNEL_SURFACE"
+	"Editor"
+	{
+		"SubType"
+		{
+			"Name"		"Funnelable Surface"
+			"Model"
+			{
+				"ModelName"		"handletarget.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"		"Funnelable Surface"
+				"Image" 		"palette/clean/bsoa_FS.png"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceCube"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
+				"SOUND_DELETED"					"P2Editor.RemoveCube"
+			}
+		}
+		"MovementHandle" "HANDLE_NONE"
+		"InvalidSurface" ""
+		"DesiredFacing" "DESIRES_ANYTHING"
+	}
+	"Properties"
+	{
+	}
+	"Exporting"
+	{
+		"Instances"
+		{
+			"0"
+			{
+				"Name" 	"instances/BEE2/overgrown/funnelable_surface.vmf"
+				"EntityCount" 	"1"
+				"BrushCount" 	"1"
+				"BrushSideCount" 	"6"
+			}
+		}
+		"TargetName" 	"bsoa_funnelable"
+		"Offset"  	"64 64 64"
+	}
+}
