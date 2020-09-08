@@ -1,0 +1,344 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8419"
+	"mapversion" "2"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "16"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+}
+entity
+{
+	"id" "2"
+	"classname" "logic_auto"
+	"angles" "0 0 0"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "measure_brush_thingyEnable1-1"
+		"OnMapSpawn" "gameuiActivate!player1-1"
+		"OnLoadGame" "gameuiDeactivate0-1"
+		"OnLoadGame" "gameuiActivate!player1-1"
+	}
+	"origin" "15.403 11 -17"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "4"
+	"classname" "logic_branch"
+	"angles" "0 0 0"
+	"initialvalue" "1"
+	"targetname" "toggle_time"
+	connections
+	{
+		"OnTrue" "playerspeedModifySpeed10-1"
+		"OnTrue" "timescaleSetDesiredTimescale10-1"
+		"OnFalse" "playerspeedModifySpeed50-1"
+		"OnFalse" "timescaleSetDesiredTimescale0.20-1"
+		"OnTrue" "iomanagerFireUser20-1"
+		"OnFalse" "iomanagerFireUser10-1"
+		"OnTrue" "show_textToggle0-1"
+		"OnFalse" "show_textToggle0-1"
+		"OnTrue" "time_changePlaySound0-1"
+		"OnTrue" "time_changePitch510-1"
+		"OnFalse" "time_changePitch2550-1"
+		"OnFalse" "time_changePlaySound0-1"
+	}
+	"origin" "-8.5 0 34"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "logic_timescale"
+	"angles" "0 0 0"
+	"blendtime" "0"
+	"targetname" "timescale"
+	"origin" "-8.5 16 16"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "8"
+	"classname" "player_speedmod"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "playerspeed"
+	"origin" "-8.5 0 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "10"
+	"classname" "game_ui"
+	"angles" "0 0 0"
+	"fieldofview" "-1.0"
+	"spawnflags" "0"
+	"targetname" "gameui"
+	connections
+	{
+		"PressedAttack2" "toggle_timeToggleTest0-1"
+	}
+	"origin" "16.403 3 4"
+	editor
+	{
+		"color" "200 0 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "12"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"startdisabled" "0"
+	"targetname" "iomanager"
+	connections
+	{
+		"OnUser1" "proxyProxyRelay0-1"
+		"OnUser2" "proxyProxyRelay0-1"
+	}
+	"origin" "16 16 24"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "14"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	"origin" "16 16 40"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "16"
+	"classname" "logic_measure_movement"
+	"angles" "0 0 0"
+	"MeasureReference" "reference_thing"
+	"MeasureTarget" "!player"
+	"MeasureType" "1"
+	"Target" "second_reference_thing"
+	"targetname" "measure_brush_thingy"
+	"TargetReference" "reference_thing"
+	"TargetScale" "1"
+	"origin" "48 6.716 -32"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "22"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "reference_thing"
+	"origin" "-31.097 11 3"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "25"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "second_reference_thing"
+	"origin" "-31.097 11 3"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "28"
+	"classname" "game_text"
+	"angles" "0 0 0"
+	"channel" "1"
+	"color" "0 255 0"
+	"color2" "240 110 0"
+	"fadein" "0"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "0.5"
+	"message" "Slow Down Time(Right Cick)"
+	"targetname" "text1"
+	"x" "-1"
+	"y" "0"
+	"origin" "-44.5 8 18"
+	editor
+	{
+		"color" "200 0 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "31"
+	"classname" "game_text"
+	"angles" "0 0 0"
+	"channel" "1"
+	"color" "0 0 255"
+	"color2" "240 110 0"
+	"fadein" "0"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "0.5"
+	"message" "Speed Up Time(Right Cick)"
+	"targetname" "text2"
+	"x" "-1"
+	"y" "0"
+	"origin" "-44.5 -8 18"
+	editor
+	{
+		"color" "200 0 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "34"
+	"classname" "logic_timer"
+	"angles" "0 0 0"
+	"initialvalue" "1"
+	"refiretime" "0.5"
+	"targetname" "timer"
+	connections
+	{
+		"OnTimer" "show_textTest0-1"
+	}
+	"origin" "-44.5 0 38"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "36"
+	"classname" "logic_branch"
+	"angles" "0 0 0"
+	"targetname" "show_text"
+	connections
+	{
+		"OnTrue" "text2Display0-1"
+		"OnFalse" "text1Display0-1"
+	}
+	"origin" "-8.5 -16 34"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "38"
+	"classname" "ambient_generic"
+	"angles" "0 0 0"
+	"health" "10"
+	"message" "buttons/og_test_chamber_neg_01.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1250"
+	"spawnflags" "48"
+	"targetname" "time_change"
+	"origin" "-22.5 -10 38"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
