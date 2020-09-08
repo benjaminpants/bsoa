@@ -16,15 +16,20 @@
 		"" ""
 		"" "* Funnel Gun"
 		"" "* Requires Funnelable Surface entities to work, left click to fire the funnel. Outputs whenever there is an active funnel."
+		"" ""
+		"" "* Time Travel Device"
+		"" "* Right click toggles the speed of time."
+		"" "* Outputs whenever time is slowed."
+		"" "* Includes a blue portal gun(can be changed to nothing via placing a blue auto-portal)"
 	}
 	"infoURL"		"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-	"Ent_count"     "13"
+	"Ent_count"     "??"
 	"Icon"
 		{
 			"0"	"bsoa_gun1"
 			"1" "bsoa_gun2"
 			"2" "bsoa_gun3"
 			"3" "bsoa_gun4"
-			"4" "unused"
+			"4" "bsoa_gun5"
 		}
 	}

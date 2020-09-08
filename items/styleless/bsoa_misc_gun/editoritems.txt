@@ -86,15 +86,15 @@
 		}
 		"SubType"
 		{
-			"Name"		"Unused"
+			"Name"		"Time Travel Device"
 			"Model"
 			{
 				"ModelName"		"handletarget.3ds"
 			}
 			"Palette"
 			{
-				"Tooltip"		"UNUSED"
-				"Image" 		"palette/clean/unused.png"
+				"Tooltip"		"TIME TRAVEL DEVICE"
+				"Image" 		"palette/clean/bsoa_gun5.png"
 			}
 			"Sounds"
 			{
@@ -151,12 +151,19 @@
 				"BrushCount" 	"1"
 				"BrushSideCount" 	"6"
 			}
-			"2"
+			"3"
 			{
 				"Name" 	"instances/BEE2/styleless/misc_guns/grenade_launcher.vmf"
 				"EntityCount" 	"15"
 				"BrushCount" 	"1"
 				"BrushSideCount" 	"6"
+			}
+			"4"
+			{
+				"Name" 	"instances/BEE2/styleless/misc_guns/time_travel.vmf"
+				"EntityCount" 	"15"
+				"BrushCount" 	"0"
+				"BrushSideCount" 	"0"
 			}
 		}
 		"TargetName" 	"bsoa_miscgun"
