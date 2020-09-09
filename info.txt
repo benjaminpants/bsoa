@@ -125,7 +125,6 @@
 		}
 }
 
-
 "Item"
 {
         "ID" "ITEM_BSOA_COMPANION"
@@ -136,6 +135,20 @@
             "Styles"
 			{
                 "BEE2_CLEAN" "clean/bsoa_companion"
+			}
+		}
+}
+
+"Item"
+{
+        "ID" "ITEM_BSOA_RANDOMCASE"
+        "Version"
+		{
+			"ID" 	"VER_DEFAULT"
+			"Name" "Regular"
+            "Styles"
+			{
+                "BEE2_CLEAN" "styleless/bsoa_random_case"
 			}
 		}
 }
