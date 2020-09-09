@@ -1,0 +1,15 @@
+"Properties"
+	{
+	"Authors"		"MissingTextureMan101"
+	"Tags"			"BSOA;Test Elements"
+	"Description" 
+	{
+		"" "Randomly decides to output or not."
+	}
+	"infoURL"		"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+	"Ent_count"     "4"
+	"Icon"
+		{
+			"0"	"bsoa_rng"
+		}
+	}
