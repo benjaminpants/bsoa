@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "6"
+	"mapversion" "10"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "64"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "6"
+	"mapversion" "10"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -55,6 +55,7 @@ entity
 	"id" "2"
 	"classname" "prop_tractor_beam"
 	"angles" "0 0 0"
+	"disablehelper" "1"
 	"linearforce" "500"
 	"model" "models/props_ingame/tractor_beam_128.mdl"
 	"modelscale" "0"
@@ -63,7 +64,7 @@ entity
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"solid" "6"
-	"startenabled" "1"
+	"startenabled" "0"
 	"targetname" "funnel"
 	"use128model" "1"
 	"origin" "7.1261 -8 0"
@@ -93,6 +94,7 @@ entity
 		"UnpressedAttack" "sparkzStopSpark0-1"
 		"UnpressedAttack" "start_sparkingSetValue00-1"
 		"UnpressedAttack" "iomanagerFireUser20-1"
+		"UnpressedAttack" "speedmodModifySpeed00-1"
 	}
 	"origin" "69.1261 -5 0"
 	editor
@@ -120,8 +122,8 @@ entity
 		"OnStartTouch" "funnelEnable0-1"
 		"OnStartTouch" "start_sparkingSetValue10-1"
 		"OnStartTouch" "iomanagerFireUser10-1"
+		"OnStartTouch" "timerEnable0.01-1"
 		"OnStartTouch" "timerResetTimer0-1"
-		"OnStartTouch" "timerEnable0-1"
 	}
 	solid
 	{
