@@ -1,6 +1,10 @@
 # Ben's Slightly Odd Additions
 An UCP created for Beemod 2.4, or to more precise, built and designed for 4.36.1.
 This pack is not tested for versions later then the one listed above.
+# How to install
+1. Go to .zip folder and unpack it.
+2. Copy (or move) unpacked folder to: `your-BEE2-folder/packages`
+3. Done!
 # Features
 This UCP features a bunch of miscellaneous stuff.
 - Bomb Dropper
