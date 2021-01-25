@@ -1,0 +1,187 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8419"
+	"mapversion" "25"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "2"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "25"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "351"
+	"classname" "logic_timer"
+	"RefireTime" "0.05"
+	"StartDisabled" "1"
+	"targetname" "funny_timer"
+	connections
+	{
+		"OnTimer" "turretFireBulletturret_funny0-1"
+	}
+	"origin" "-2 24 -32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "353"
+	"classname" "npc_portal_turret_floor"
+	"angles" "0 0 0"
+	"Gagged" "1"
+	"PickupEnabled" "1"
+	"spawnflags" "0"
+	"targetname" "turret"
+	"TurretRange" "1"
+	"origin" "-6 0 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "355"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"parentname" "turret"
+	"targetname" "turret_funny"
+	"origin" "184 0 -32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "405"
+	"classname" "logic_branch"
+	"InitialValue" "$start_reversed"
+	"targetname" "should_move"
+	connections
+	{
+		"OnTrue" "turretDisableMotion0-1"
+	}
+	"origin" "2 -24 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "244"
+	"classname" "logic_branch"
+	"InitialValue" "$start_enabled"
+	"targetname" "open_door"
+	connections
+	{
+		"OnTrue" "funny_timerDisable0-1"
+		"OnFalse" "funny_timerEnable0-1"
+	}
+	"origin" "20 -24 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "282"
+	"classname" "logic_branch"
+	"InitialValue" "$start_enabled"
+	"targetname" "close_door"
+	connections
+	{
+		"OnTrue" "funny_timerEnable0-1"
+		"OnFalse" "funny_timerDisable0-1"
+	}
+	"origin" "20 -48 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "342"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "close_doorTest0-1"
+		"OnMapSpawn" "should_moveTest0-1"
+	}
+	"origin" "-17 27.0979 46.8713"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "227"
+	"classname" "func_instance_parms"
+	"parm1" "$connectioncount integer 0"
+	"parm2" "$start_enabled boolean 0"
+	"parm3" "$start_reversed boolean 0"
+	"origin" "17 36.3881 28.6882"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

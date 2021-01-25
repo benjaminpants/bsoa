@@ -1,0 +1,20 @@
+"Properties"
+	{
+	"Authors"		"MissingTextureMan101"
+	"Tags"			"BSOA;Test Elements"
+	"Description" 
+	{
+		"" "A seemless portal between 2 destinations, link it with another world portal to link the two together."
+		"" ""
+		"" "* It is recommended you set the **Connection Visibility** to none."
+		"" "* Keeping the lighting consistent between both ends is recommended."
+		"" "* Do not try connecting these with the centered version."
+		"" "* > There is a default limit of two worldportals rendered at once for singleplayer chambers! Please keep your worldportals seperated far enough for this to not happen!"
+	}
+	"infoURL"		"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+	"Ent_count"     "3"
+	"Icon"
+		{
+			"0"	"bsoa_wp_centered"
+		}
+	}

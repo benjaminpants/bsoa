@@ -1,0 +1,301 @@
+"ID" "BSOA"
+"Name" "Ben's Slightly Odd Additions"
+"Desc" "A bunch of misc stuff I wanted to add"
+"Prerequisites"
+{
+	"Package" "BEE2_CLEAN_STYLE"
+}
+"Item"
+{
+        "ID" "ITEM_BSOA_SFP"
+        "Version"
+		{
+			"ID" 	"VER_DEFAULT"
+			"Name" "Regular"
+            "Styles"
+			{
+                "BEE2_CLEAN" "clean/bsoa_flippan"
+				"BEE2_OVERGROWN" "overgrown/bsoa_flippan"
+				"BEE2_PORTAL_1" "p1/bsoa_flippan"
+				"BEE2_BTS" "bts/bsoa_flippan"
+				"BEE2_1950s" "1950s/bsoa_flippan"
+				"BEE2_1960s" "1950s/bsoa_flippan"
+				"BEE2_1970s" "1970s/bsoa_flippan"
+				"BEE2_1980s" "1970s/bsoa_flippan"
+			}
+		}
+}
+
+
+"Item"
+{
+        "ID" "ITEM_BSOA_ITEM_BSOA_BOMBDROP"
+        "Version"
+		{
+			"ID" 	"VER_DEFAULT"
+			"Name" "Regular"
+            "Styles"
+			{
+                "BEE2_CLEAN" "clean/bsoa_bombdrop"
+				"BEE2_OVERGROWN" "overgrown/bsoa_bombdrop"
+				"BEE2_PORTAL_1" "p1/bsoa_bombdrop"
+				"BEE2_BTS" "bts/bsoa_bombdrop"
+				"BEE2_1950s" "1950s/bsoa_bombdrop"
+				"BEE2_1960s" "1950s/bsoa_bombdrop"
+				"BEE2_1970s" "1950s/bsoa_bombdrop"
+				"BEE2_1980s" "1950s/bsoa_bombdrop"
+			}
+		}
+}
+
+"Item"
+{
+        "ID" "ITEM_BSOA_SHAKE"
+        "Version"
+		{
+			"ID" 	"VER_DEFAULT"
+			"Name" "Regular"
+            "Styles"
+			{
+                "BEE2_CLEAN" "styleless/bsoa_shake"
+			}
+		}
+		
+}
+
+"Item"
+{
+        "ID" "ITEM_BSOA_PRESSURE_PLATE"
+        "Version"
+		{
+			"ID" 	"VER_DEFAULT"
+			"Name" "Regular"
+            "Styles"
+			{
+                "BEE2_CLEAN" "styleless/bsoa_pressure"
+			}
+		}
+		
+}
+
+
+"Item"
+{
+	"ID"	"ITEM_BSOA_MISC_GUN"
+	"Version"
+	{
+		"ID" "VER_DEFAULT"
+		"Name" "Misc Guns"
+		"Styles"
+		{	
+			"BEE2_CLEAN" "styleless/bsoa_misc_gun"
+		}
+	}
+}
+
+"Item"
+{
+	"ID"	"ITEM_BSOA_FUNNEL_SURFACE"
+	"Version"
+	{
+		"ID" "VER_DEFAULT"
+		"Name" "Default"
+		"Styles"
+		{	
+			"BEE2_CLEAN" "clean/bsoa_funnelsurface"
+			"BEE2_OVERGROWN" "overgrown/bsoa_funnelsurface"
+			"BEE2_PORTAL_1" "p1/bsoa_funnelsurface"
+			"BEE2_BTS" "1970s/bsoa_funnelsurface"
+			"BEE2_1950s" "1950s/bsoa_funnelsurface"
+			"BEE2_1960s" "1950s/bsoa_funnelsurface"
+			"BEE2_1970s" "1970s/bsoa_funnelsurface"
+			"BEE2_1980s" "1970s/bsoa_funnelsurface"
+		}
+	}
+}
+
+"Item"
+{
+        "ID" "ITEM_BSOA_WINDTUBE"
+        "Version"
+		{
+			"ID" 	"VER_DEFAULT"
+			"Name" "Regular"
+            "Styles"
+			{
+                "BEE2_CLEAN" "clean/bsoa_wind_tube"
+				"BEE2_OVERGROWN" "overgrown/bsoa_wind_tube"
+				"BEE2_PORTAL_1" "p1/bsoa_wind_tube"
+				"BEE2_1950s" "1950s/bsoa_wind_tube"
+				"BEE2_1960s" "1950s/bsoa_wind_tube"
+				"BEE2_1970s" "1950s/bsoa_wind_tube"
+				"BEE2_1980s" "1950s/bsoa_wind_tube"
+				"BEE2_BTS" "bts/bsoa_wind_tube"
+			}
+		}
+}
+
+"Item"
+{
+        "ID" "ITEM_BSOA_BOMB_TARGET"
+        "Version"
+		{
+			"ID" 	"VER_DEFAULT"
+			"Name" "Regular"
+            "Styles"
+			{
+                "BEE2_CLEAN" "clean/bsoa_bomb_target"
+				"BEE2_OVERGROWN" "overgrown/bsoa_bomb_target"
+				"BEE2_PORTAL_1" "p1/bsoa_bomb_target"
+				"BEE2_1950s" "1950s/bsoa_bomb_target"
+				"BEE2_1960s" "1950s/bsoa_bomb_target"
+				"BEE2_1970s" "1970s/bsoa_bomb_target"
+				"BEE2_1980s" "1970s/bsoa_bomb_target"
+			}
+		}
+}
+
+"Item"
+{
+        "ID" "ITEM_BSOA_COMPANION"
+        "Version"
+		{
+			"ID" 	"VER_DEFAULT"
+			"Name" "Regular"
+            "Styles"
+			{
+                "BEE2_CLEAN" "clean/bsoa_companion"
+			}
+		}
+}
+
+"Item"
+{
+        "ID" "ITEM_BSOA_RANDOMCASE"
+        "Version"
+		{
+			"ID" 	"VER_DEFAULT"
+			"Name" "Regular"
+            "Styles"
+			{
+                "BEE2_CLEAN" "styleless/bsoa_random_case"
+			}
+		}
+}
+
+"Item"
+{
+        "ID" "ITEM_BSOA_WORLDPORTALS"
+        "Version"
+		{
+			"ID" 	"VER_DEFAULT"
+			"Name" "Regular"
+            "Styles"
+			{
+                "BEE2_CLEAN" "styleless/bsoa_worldportal"
+			}
+		}
+}
+
+"Item"
+{
+        "ID" "ITEM_BSOA_WORLDPORTALS_CENT"
+        "Version"
+		{
+			"ID" 	"VER_DEFAULT"
+			"Name" "Regular"
+            "Styles"
+			{
+                "BEE2_CLEAN" "styleless/bsoa_worldportal_centered"
+			}
+		}
+}
+
+
+"Item"
+{
+        "ID" "ITEM_BSOA_DISCS"
+        "Version"
+		{
+			"ID" 	"VER_DEFAULT"
+			"Name" "Regular"
+            "Styles"
+			{
+                "BEE2_CLEAN" "styleless/bsoa_discs"
+			}
+		}
+}
+
+"Item"
+{
+        "ID" "ITEM_BSOA_DISC_READERS"
+        "Version"
+		{
+			"ID" 	"VER_DEFAULT"
+			"Name" "Regular"
+            "Styles"
+			{
+                "BEE2_CLEAN" "styleless/bsoa_discreaders"
+			}
+		}
+}
+
+
+"Item"
+{
+        "ID" "ITEM_BSOA_BRREAKABLE_WALL"
+        "Version"
+		{
+			"ID" 	"VER_DEFAULT"
+			"Name" "Regular"
+            "Styles"
+			{
+                "BEE2_CLEAN" "styleless/bsoa_breakable_wall"
+			}
+		}
+}
+
+//Currently broken for some reason. Probably PETI being PETI.
+//"Item"
+//{
+//        "ID" "ITEM_BSOA_MINDLESS_TURRET"
+//        "Version"
+//		{
+//			"ID" 	"VER_DEFAULT"
+//			"Name" "Regular"
+//            "Styles"
+//			{
+//                "BEE2_CLEAN" "clean/bsoa_mindlessturret"
+//			}
+//		}
+//}
+
+"Item"
+{
+        "ID" "ITEM_BSOA_QUICKCS"
+        "Version"
+		{
+			"ID" 	"VER_DEFAULT"
+			"Name" "Regular"
+            "Styles"
+			{
+                "BEE2_CLEAN" "clean/bsoa_quickcs"
+				"BEE2_OVERGROWN" "overgrown/bsoa_quickcs"
+				"BEE2_PORTAL_1" "p1/bsoa_quickcs"
+				"BEE2_BTS" "clean/bsoa_quickcs"
+				"BEE2_1950s" "1950s/bsoa_quickcs"
+				"BEE2_1960s" "1950s/bsoa_quickcs"
+				"BEE2_1970s" "1950s/bsoa_quickcs"
+				"BEE2_1980s" "1950s/bsoa_quickcs"
+			}
+		}
+		//"Version"
+		//{
+		//	"ID" 	"VER_SIMPLE"
+		//	"Name" "Simple(Regular Cube Only)"
+        //    "Styles"
+		//	{
+        //        "BEE2_CLEAN" "clean/bsoa_quickcssimple"
+		//	}
+		//}
+}

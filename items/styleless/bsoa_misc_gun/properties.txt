@@ -1,0 +1,35 @@
+"Properties"
+	{
+	"Authors"		"MissingTextureMan101"
+	"Tags"			"BSOA;Test Elements"
+	"Description" 
+	{
+		"" "A various set of MISC guns."
+		"" ""
+		"" "> Do not place more then one of any of the misc guns!"
+		"" ""
+		"" "* Handheld Button"
+		"" "* A button that toggles an output when left clicked."
+		"" ""
+		"" "* Hammer"
+		"" "* Summons cubes via left click, can only spawn 3 cubes, destroys all cubes on right click."
+		"" ""
+		"" "* Funnel Gun"
+		"" "* Requires Funnelable Surface entities to work, left click to fire the funnel. Outputs whenever there is an active funnel."
+		"" ""
+		"" "* Time Travel Device"
+		"" "* Right click toggles the speed of time."
+		"" "* Outputs whenever time is slowed."
+		"" "* Includes a blue portal gun(can be changed to nothing via placing a blue auto-portal)"
+	}
+	"infoURL"		"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+	"Ent_count"     "??"
+	"Icon"
+		{
+			"0"	"bsoa_gun1"
+			"1" "bsoa_gun2"
+			"2" "bsoa_gun3"
+			"3" "bsoa_gun4"
+			"4" "bsoa_gun5"
+		}
+	}

@@ -1,0 +1,15 @@
+"Properties"
+	{
+	"Authors"		"MissingTextureMan101"
+	"Tags"			"BSOA;Test Elements"
+	"Description" 
+	{
+		"" "For use with the funnel gun."
+	}
+	"infoURL"		"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+	"Ent_count"     "1"
+	"Icon"
+		{
+			"0"	"bsoa_FS"
+		}
+	}

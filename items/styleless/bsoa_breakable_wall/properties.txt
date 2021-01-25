@@ -1,0 +1,15 @@
+"Properties"
+	{
+	"Authors"		"MissingTextureMan101"
+	"Tags"			"BSOA;Test Elements"
+	"Description" 
+	{
+		"" "A wall that creates an output when broken."
+	}
+	"infoURL"		"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+	"Ent_count"     "3"
+	"Icon"
+		{
+			"0"	"bsoa_breakable_wall"
+		}
+	}

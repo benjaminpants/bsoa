@@ -1,0 +1,87 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8419"
+	"mapversion" "44"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "44"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "1830"
+	"classname" "linked_portal_door"
+	"angles" "0 180 0"
+	"height" "64"
+	"partnername" "$next_portal"
+	"startactive" "1"
+	"targetname" "$portal_name"
+	"width" "64"
+	"origin" "0 0.1 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1882"
+	"classname" "func_instance_parms"
+	"parm1" "$portal_name string"
+	"parm2" "$next_portal string"
+	"origin" "-32 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "1923"
+	"classname" "math_counter"
+	"angles" "0 0 0"
+	"targetname" "counter"
+	"origin" "32 0 0"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

@@ -1,0 +1,15 @@
+"Properties"
+	{
+	"Authors"		"MissingTextureMan101"
+	"Tags"			"BSOA;Test Elements"
+	"Description" 
+	{
+		"" "A wind tube that causes objects above it to float in air"
+	}
+	"infoURL"		"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+	"Ent_count"     "10"
+	"Icon"
+		{
+			"0"	"bsoa_windtube"
+		}
+	}

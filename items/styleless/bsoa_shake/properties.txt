@@ -1,0 +1,17 @@
+"Properties"
+	{
+	"Authors"		"MissingTextureMan101"
+	"Tags"			"BSOA;Test Elements"
+	"Description" 
+	{
+		"" "When fired, it shakes the screen and shifts around physics props"
+		"" ""
+		"" "* **Start Reversed** if enabled, disables the sound."
+	}
+	"infoURL"		"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+	"Ent_count"     "6"
+	"Icon"
+		{
+			"0"	"bsoa_shake"
+		}
+	}

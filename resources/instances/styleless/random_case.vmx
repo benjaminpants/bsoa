@@ -1,0 +1,145 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8419"
+	"mapversion" "3"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "3"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+}
+entity
+{
+	"id" "4"
+	"classname" "logic_case"
+	"angles" "0 0 0"
+	"targetname" "random_case"
+	connections
+	{
+		"OnCase01" "iomanagerFireUser10-1"
+		"OnCase02" "iomanagerFireUser20-1"
+	}
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"targetname" "iomanager"
+	connections
+	{
+		"OnUser1" "proxyProxyRelay0-1"
+		"OnUser2" "proxyProxyRelay0-1"
+	}
+	"origin" "64 0 0"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "10"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	"origin" "-64 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "22"
+	"classname" "logic_auto"
+	"angles" "0 0 0"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "start_enableddTest1-1"
+	}
+	"origin" "0 0 -64"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "40"
+	"classname" "logic_branch"
+	"angles" "0 0 0"
+	"initialvalue" "$start_enabled"
+	"targetname" "start_enabledd"
+	connections
+	{
+		"OnTrue" "random_casePickRandom0-1"
+	}
+	"origin" "0 0 64"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "42"
+	"classname" "func_instance_parms"
+	"parm1" "$start_enabled boolean 0"
+	"origin" "0 64 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

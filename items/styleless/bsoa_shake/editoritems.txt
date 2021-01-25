@@ -1,0 +1,149 @@
+"Item"
+{
+	"Type"		"ITEM_BSOA_SHAKE"
+	"Editor"
+	{
+		"SubType"
+		{
+			"Name"		"Shake"
+			"Model"
+			{
+				"ModelName"		"goo_man.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"		"SHAKE"
+				"Image" 		"palette/styleless/bsoa_shake.png"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceCube"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
+				"SOUND_DELETED"					"P2Editor.RemoveCube"
+			}
+			"Animations"
+			{
+				"ANIM_IDLE"							"0"
+				"ANIM_EDITING_ACTIVATE"				"2"
+				"ANIM_EDITING_DEACTIVATE"			"3"
+				"ANIM_FALLING_IDLE"					"1"
+				"ANIM_FALLING_EDITING_ACTIVATE"		"4"
+				"ANIM_FALLING_EDITING_DEACTIVATE"	"5"
+				"ANIM_FALLING_TO_GROUND"			"7"
+				"ANIM_GROUND_TO_FALLING"			"9"
+				"ANIM_FALLING_TO_GROUND_EDITING"	"6"
+				"ANIM_GROUND_TO_FALLING_EDITING"	"8"
+			}
+		}
+		"MovementHandle" "HANDLE_NONE"
+		"InvalidSurface" ""
+		"DesiredFacing" "DESIRES_ANYTHING"
+	}
+	"Properties"
+	{
+		"StartReversed"
+		{
+			"DefaultValue"		"0"
+			"Index"		"1"
+		}
+		"TimerDelay"
+		{
+			"DefaultValue"		"3"
+			"Index"		"1"
+		}
+	}
+	"Exporting"
+	{
+		"Instances"
+		{
+			"0"
+			{
+				"Name" 	"instances/BEE2/styleless/bsoa_shake.vmf"
+				"EntityCount" 	"6"
+				"BrushCount" 	"0"
+				"BrushSideCount" 	"0"
+			}
+		}
+		
+		"Inputs"
+		{
+			"BEE2"
+			{
+			"Type" "AND"
+			"Enable_Cmd" "start_shake,Trigger,1,0.00,-1"
+			"Disable_Cmd" "stop_shake,Trigger,1,0.00,-1"
+			}
+		}
+		
+		"ConnectionPoints"
+		{
+			// left
+			"Point"
+			{
+				"Dir"				"1 0 0"
+				"Pos"				"-1 3 0"
+				"SignageOffset"		"-2 2 0"
+				"Priority"  "0"
+			}
+			"Point"
+			{
+				"Dir"				"1 0 0"
+				"Pos"				"-1 4 0"
+				"SignageOffset"		"-2 5 0"
+				"Priority"  "0"
+			}
+
+			// right
+			"Point"
+			{
+				"Dir"				"-1 0 0"
+				"Pos"				"8 3 0"
+				"SignageOffset"		"9 2 0"
+				"Priority"  "0"
+			}
+			"Point"
+			{
+				"Dir"				"-1 0 0"
+				"Pos"				"8 4 0"
+				"SignageOffset"		"9 5 0"
+				"Priority"  "0"
+			}
+
+			// up
+			"Point"
+			{
+				"Dir"				"0 1 0"
+				"Pos"				"3 -1 0"
+				"SignageOffset"		"2 -2 0"
+				"Priority"  "0"
+			}
+			"Point"
+			{
+				"Dir"				"0 1 0"
+				"Pos"				"4 -1 0"
+				"SignageOffset"		"5 -2 0"
+				"Priority"  "0"
+			}
+
+			// down
+			"Point"
+			{
+				"Dir"				"0 -1 0"
+				"Pos"				"3 8 0"
+				"SignageOffset"		"2 9 0"
+				"Priority"  "0"
+			}
+			"Point"
+			{
+				"Dir"				"0 -1 0"
+				"Pos"				"4 8 0"
+				"SignageOffset"		"5 9 0"
+				"Priority"  "0"
+			}
+		}
+		
+		"TargetName" 	"bsoa_shake"
+		"Offset"  	"64 64 64"
+	}
+}

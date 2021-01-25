@@ -1,0 +1,17 @@
+"Properties"
+	{
+	"Authors"		"MissingTextureMan101"
+	"Tags"			"BSOA;Test Elements"
+	"Description" 
+	{
+		"" "A turret that can be given an input and only fires head-on."
+		"" ""
+		"" "* **Start Reversed** if enabled, it will prevent the turret from being moved."
+	}
+	"infoURL"		"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+	"Ent_count"     "8"
+	"Icon"
+		{
+			"0"	"bsoa_mindlessturret"
+		}
+	}

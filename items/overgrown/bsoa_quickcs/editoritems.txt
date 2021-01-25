@@ -1,0 +1,200 @@
+"Item"
+{
+	"Type"		"ITEM_BSOA_QUICKCS"
+	"Editor"
+	{
+		"SubType"
+		{
+			"Name"		"Quick Cube Spawn"
+			"Model"
+			{
+				"ModelName"		"cube.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"		"QUICK CUBE SPAWN"
+				"Image" 		"palette/clean/bsoa_quickcs.png"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceCube"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
+				"SOUND_DELETED"					"P2Editor.RemoveCube"
+			}
+			"Animations"
+			{
+				"ANIM_IDLE"							"0"
+				"ANIM_EDITING_ACTIVATE"				"2"
+				"ANIM_EDITING_DEACTIVATE"			"3"
+				"ANIM_FALLING_IDLE"					"1"
+				"ANIM_FALLING_EDITING_ACTIVATE"		"4"
+				"ANIM_FALLING_EDITING_DEACTIVATE"	"5"
+				"ANIM_FALLING_TO_GROUND"			"7"
+				"ANIM_GROUND_TO_FALLING"			"9"
+				"ANIM_FALLING_TO_GROUND_EDITING"	"6"
+				"ANIM_GROUND_TO_FALLING_EDITING"	"8"
+			}
+		}
+		"SubType"
+		{
+			"Name"		"Quick Cube Spawn"
+			"Model"
+			{
+				"ModelName"		"cube.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"		"QUICK CUBE SPAWN"
+				"Image" 		"palette/clean/bsoa_quickcs.png"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceCube"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
+				"SOUND_DELETED"					"P2Editor.RemoveCube"
+			}
+			"Animations"
+			{
+				"ANIM_IDLE"							"0"
+				"ANIM_EDITING_ACTIVATE"				"2"
+				"ANIM_EDITING_DEACTIVATE"			"3"
+				"ANIM_FALLING_IDLE"					"1"
+				"ANIM_FALLING_EDITING_ACTIVATE"		"4"
+				"ANIM_FALLING_EDITING_DEACTIVATE"	"5"
+				"ANIM_FALLING_TO_GROUND"			"7"
+				"ANIM_GROUND_TO_FALLING"			"9"
+				"ANIM_FALLING_TO_GROUND_EDITING"	"6"
+				"ANIM_GROUND_TO_FALLING_EDITING"	"8"
+			}
+		}
+		"MovementHandle" "HANDLE_8_POSITIONS"
+		"InvalidSurface" ""
+		"DesiredFacing" "DESIRES_ANYTHING"
+	}
+	"Properties"
+	{
+		"AutoRespawn"
+		{
+			"DefaultValue"		"1"
+			"Index"		"1"
+		}
+		"AutoDrop"
+		{
+			"DefaultValue"		"1"
+			"Index"		"2"
+		}
+		"CubeType"
+		{
+			"DefaultValue"		"0"
+			"Index"		"3"
+		}
+		"ConnectionCount"
+		{
+			"DefaultValue" "0"
+			"Index" 	"4"
+		}
+		"StartReversed"
+		{
+			"DefaultValue"		"1"
+			"Index"		"5"
+		}
+	}
+	"Exporting"
+	{
+		"Instances"
+		{
+			"0"
+			{
+				"Name" 	"instances/BEE2/overgrown/quickcubespawn.vmf"
+				"EntityCount" 	"39"
+				"BrushCount" 	"1"
+				"BrushSideCount" 	"6"
+			}
+		}
+		"TargetName" 	"bsoa_qcs"
+		"Offset"  	"64 64 64"
+
+		"Inputs"
+		{
+			"BEE2"
+			{
+			"Type" "AND"
+			"Enable_Cmd" "activatething,Trigger,1,0.00,-1"
+			"Disable_Cmd" "deactivatething,Trigger,1,0.00,-1"
+			}
+		}
+		
+		"ConnectionPoints"
+			{
+			// Taken from laser catcher item
+			// left
+			"Point"
+				{
+				"Dir"				"1 0 0"
+				"Pos"				"1 3 0"
+				"SignageOffset"		"0 2 0"
+				"Priority"	"0"
+				}
+			"Point"
+				{
+				"Dir"				"1 0 0"
+				"Pos"				"1 4 0"
+				"SignageOffset"		"0 5 0"
+				"Priority"	"0"
+				}
+
+
+			// left
+			"Point"
+				{
+				"Dir"				"-1 0 0"
+				"Pos"				"6 3 0"
+				"SignageOffset"		"7 2 0"
+				"Priority"	"0"
+				}
+			"Point"
+				{
+				"Dir"				"-1 0 0"
+				"Pos"				"6 4 0"
+				"SignageOffset"		"7 5 0"
+				"Priority"	"0"
+				}
+
+
+			// top
+			"Point"
+				{
+				"Dir"				"0 1 0"
+				"Pos"				"3 1 0"
+				"SignageOffset"		"2 0 0"
+				"Priority"	"0"
+				}
+			"Point"
+				{
+				"Dir"				"0 1 0"
+				"Pos"				"4 1 0"
+				"SignageOffset"		"5 0 0"
+				"Priority"	"0"
+				}
+
+
+			// bottom
+			"Point"
+				{
+				"Dir"				"0 -1 0"
+				"Pos"				"3 6 0"
+				"SignageOffset"		"2 7 0"
+				"Priority"	"0"
+				}
+			"Point"
+				{
+				"Dir"				"0 -1 0"
+				"Pos"				"4 6 0"
+				"SignageOffset"		"5 7 0"
+				"Priority"	"0"
+				}
+			}
+	}
+}

@@ -1,0 +1,26 @@
+"Properties"
+	{
+	"Authors"		"MissingTextureMan101"
+	"Tags"			"BSOA;Test Elements"
+	"Description" 
+	{
+		"" "A pressure plate from Minecraft."
+		"" ""
+		"" "* Wooden pressure plates can be pressed by any physic objects or player"
+		"" ""
+		"" "* Stone pressure plates can only be pressed by players"
+		"" ""
+		"" "* Iron pressure plates can only be pressed by physic objects"
+		"" ""
+		"" "* Golden pressure plates can only be pressed by cubes"
+	}
+	"infoURL"		"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+	"Ent_count"     "7"
+	"Icon"
+		{
+			"0"	"bsoa_woodp"
+			"1"	"bsoa_stonep"
+			"2"	"bsoa_ironp"
+			"3"	"bsoa_goldp"
+		}
+	}

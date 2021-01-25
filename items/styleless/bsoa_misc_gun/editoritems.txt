@@ -1,0 +1,247 @@
+"Item"
+{
+	"Type"		"ITEM_BSOA_MISC_GUN"
+	"Editor"
+	{
+		"SubTypeProperty"		"CubeType"
+		"SubType"
+		{
+			"Name"		"Handheld Button"
+			"Model"
+			{
+				"ModelName"		"handletarget.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"		"HANDHELD BUTTON"
+				"Image" 		"palette/clean/bsoa_gun1.png"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+			}
+		}
+		"SubType"
+		{
+			"Name"		"Hammer"
+			"Model"
+			{
+				"ModelName"		"handletarget.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"		"HAMMER"
+				"Image" 		"palette/clean/bsoa_gun2.png"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+			}
+		}
+		"SubType"
+		{
+			"Name"		"Funnel Gun"
+			"Model"
+			{
+				"ModelName"		"handletarget.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"		"FUNNEL GUN"
+				"Image" 		"palette/clean/bsoa_gun3.png"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+			}
+		}
+		"SubType"
+		{
+			"Name"		"Grenade Launcher"
+			"Model"
+			{
+				"ModelName"		"handletarget.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"		"GRENADE LAUNCHER"
+				"Image" 		"palette/clean/bsoa_gun4.png"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+			}
+		}
+		"SubType"
+		{
+			"Name"		"Time Travel Device"
+			"Model"
+			{
+				"ModelName"		"handletarget.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"		"TIME TRAVEL DEVICE"
+				"Image" 		"palette/clean/bsoa_gun5.png"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+			}
+		}
+		"MovementHandle" "HANDLE_NONE"
+		"InvalidSurface" ""
+		"DesiredFacing" "DESIRES_ANYTHING"
+	}
+	"Properties"
+	{
+		//"TimerDelay"
+		//{
+		//	"DefaultValue" "1"
+		//	"Index"		"1"
+		//}
+		"ConnectionCount"
+		{
+			"DefaultValue" "0"
+			"Index" 	"2"
+		}
+		"CubeType"
+		{
+			"DefaultValue"		"0"
+			"Index"		"1"
+		}
+	}
+	"Exporting"
+	{
+		"Instances"
+		{
+			"0"
+			{
+				"Name" 	"instances/BEE2/styleless/misc_guns/button_gun.vmf"
+				"EntityCount" 	"13"
+				"BrushCount" 	"0"
+				"BrushSideCount" 	"0"
+			}
+			"1"
+			{
+				"Name" 	"instances/BEE2/styleless/misc_guns/hammer.vmf"
+				"EntityCount" 	"21"
+				"BrushCount" 	"2"
+				"BrushSideCount" 	"14"
+			}
+			"2"
+			{
+				"Name" 	"instances/BEE2/styleless/misc_guns/funnel_gun.vmf"
+				"EntityCount" 	"12"
+				"BrushCount" 	"1"
+				"BrushSideCount" 	"6"
+			}
+			"3"
+			{
+				"Name" 	"instances/BEE2/styleless/misc_guns/grenade_launcher.vmf"
+				"EntityCount" 	"15"
+				"BrushCount" 	"1"
+				"BrushSideCount" 	"6"
+			}
+			"4"
+			{
+				"Name" 	"instances/BEE2/styleless/misc_guns/time_travel.vmf"
+				"EntityCount" 	"15"
+				"BrushCount" 	"0"
+				"BrushSideCount" 	"0"
+			}
+		}
+		"TargetName" 	"bsoa_miscgun"
+		"Outputs"
+			{
+				"CONNECTION_STANDARD"
+				{
+					"Activate"		"instance:iomanager;OnUser1"
+					"Deactivate"	"instance:iomanager;OnUser2"
+				}
+			}
+		//Copied and pasted from the buttons
+		"ConnectionPoints"
+			{
+				// left
+				"Point"
+				{
+					"Dir"				"1 0 0"
+					"Pos"				"-1 3 0"
+					"SignageOffset"		"-2 2 0"
+					"Priority"  "0"
+				}
+				"Point"
+				{
+					"Dir"				"1 0 0"
+					"Pos"				"-1 4 0"
+					"SignageOffset"		"-2 5 0"
+					"Priority"  "0"
+				}
+
+				// right
+				"Point"
+				{
+					"Dir"				"-1 0 0"
+					"Pos"				"8 3 0"
+					"SignageOffset"		"9 2 0"
+					"Priority"  "0"
+				}
+				"Point"
+				{
+					"Dir"				"-1 0 0"
+					"Pos"				"8 4 0"
+					"SignageOffset"		"9 5 0"
+					"Priority"  "0"
+				}
+
+				// up
+				"Point"
+				{
+					"Dir"				"0 1 0"
+					"Pos"				"3 -1 0"
+					"SignageOffset"		"2 -2 0"
+					"Priority"  "0"
+				}
+				"Point"
+				{
+					"Dir"				"0 1 0"
+					"Pos"				"4 -1 0"
+					"SignageOffset"		"5 -2 0"
+					"Priority"  "0"
+				}
+
+				// down
+				"Point"
+				{
+					"Dir"				"0 -1 0"
+					"Pos"				"3 8 0"
+					"SignageOffset"		"2 9 0"
+					"Priority"  "0"
+				}
+				"Point"
+				{
+					"Dir"				"0 -1 0"
+					"Pos"				"4 8 0"
+					"SignageOffset"		"5 9 0"
+					"Priority"  "0"
+				}
+			}
+		"Offset"  	"64 64 64"
+	}
+}

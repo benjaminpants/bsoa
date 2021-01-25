@@ -1,0 +1,199 @@
+"Item"
+{
+	"Type"		"ITEM_BSOA_DISCS"
+	"Editor"
+	{
+		"SubTypeProperty"		"CubeType"
+		"SubType"
+		{
+			"Name"		"White Disc"
+			"Model"
+			{
+				"ModelName"		"cube.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"		"WHITE DISC"
+				"Image" 		"palette/clean/bsoa_disc.png"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceCube"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
+				"SOUND_DELETED"					"P2Editor.RemoveCube"
+			}
+			"Animations"
+			{
+				"ANIM_IDLE"							"0"
+				"ANIM_EDITING_ACTIVATE"				"2"
+				"ANIM_EDITING_DEACTIVATE"			"3"
+				"ANIM_FALLING_IDLE"					"1"
+				"ANIM_FALLING_EDITING_ACTIVATE"		"4"
+				"ANIM_FALLING_EDITING_DEACTIVATE"	"5"
+				"ANIM_FALLING_TO_GROUND"			"7"
+				"ANIM_GROUND_TO_FALLING"			"9"
+				"ANIM_FALLING_TO_GROUND_EDITING"	"6"
+				"ANIM_GROUND_TO_FALLING_EDITING"	"8"
+			}
+		}
+		"SubType"
+		{
+			"Name"		"Red Disc"
+			"Model"
+			{
+				"ModelName"		"cube.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"		"RED DISC"
+				"Image" 		"palette/clean/bsoa_disc.png"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceCube"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
+				"SOUND_DELETED"					"P2Editor.RemoveCube"
+			}
+			"Animations"
+			{
+				"ANIM_IDLE"							"0"
+				"ANIM_EDITING_ACTIVATE"				"2"
+				"ANIM_EDITING_DEACTIVATE"			"3"
+				"ANIM_FALLING_IDLE"					"1"
+				"ANIM_FALLING_EDITING_ACTIVATE"		"4"
+				"ANIM_FALLING_EDITING_DEACTIVATE"	"5"
+				"ANIM_FALLING_TO_GROUND"			"7"
+				"ANIM_GROUND_TO_FALLING"			"9"
+				"ANIM_FALLING_TO_GROUND_EDITING"	"6"
+				"ANIM_GROUND_TO_FALLING_EDITING"	"8"
+			}
+		}
+		"SubType"
+		{
+			"Name"		"Blue Disc"
+			"Model"
+			{
+				"ModelName"		"cube.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"		"BLUE DISC"
+				"Image" 		"palette/clean/bsoa_disc.png"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceCube"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
+				"SOUND_DELETED"					"P2Editor.RemoveCube"
+			}
+			"Animations"
+			{
+				"ANIM_IDLE"							"0"
+				"ANIM_EDITING_ACTIVATE"				"2"
+				"ANIM_EDITING_DEACTIVATE"			"3"
+				"ANIM_FALLING_IDLE"					"1"
+				"ANIM_FALLING_EDITING_ACTIVATE"		"4"
+				"ANIM_FALLING_EDITING_DEACTIVATE"	"5"
+				"ANIM_FALLING_TO_GROUND"			"7"
+				"ANIM_GROUND_TO_FALLING"			"9"
+				"ANIM_FALLING_TO_GROUND_EDITING"	"6"
+				"ANIM_GROUND_TO_FALLING_EDITING"	"8"
+			}
+		}
+		"SubType"
+		{
+			"Name"		"Green Disc"
+			"Model"
+			{
+				"ModelName"		"cube.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"		"GREEN DISC"
+				"Image" 		"palette/clean/bsoa_disc.png"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceCube"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
+				"SOUND_DELETED"					"P2Editor.RemoveCube"
+			}
+			"Animations"
+			{
+				"ANIM_IDLE"							"0"
+				"ANIM_EDITING_ACTIVATE"				"2"
+				"ANIM_EDITING_DEACTIVATE"			"3"
+				"ANIM_FALLING_IDLE"					"1"
+				"ANIM_FALLING_EDITING_ACTIVATE"		"4"
+				"ANIM_FALLING_EDITING_DEACTIVATE"	"5"
+				"ANIM_FALLING_TO_GROUND"			"7"
+				"ANIM_GROUND_TO_FALLING"			"9"
+				"ANIM_FALLING_TO_GROUND_EDITING"	"6"
+				"ANIM_GROUND_TO_FALLING_EDITING"	"8"
+			}
+		}
+		"SubType"
+		{
+			"Name"		"Yellow Disc"
+			"Model"
+			{
+				"ModelName"		"cube.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"		"YELLOW DISC"
+				"Image" 		"palette/clean/bsoa_disc.png"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceCube"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
+				"SOUND_DELETED"					"P2Editor.RemoveCube"
+			}
+			"Animations"
+			{
+				"ANIM_IDLE"							"0"
+				"ANIM_EDITING_ACTIVATE"				"2"
+				"ANIM_EDITING_DEACTIVATE"			"3"
+				"ANIM_FALLING_IDLE"					"1"
+				"ANIM_FALLING_EDITING_ACTIVATE"		"4"
+				"ANIM_FALLING_EDITING_DEACTIVATE"	"5"
+				"ANIM_FALLING_TO_GROUND"			"7"
+				"ANIM_GROUND_TO_FALLING"			"9"
+				"ANIM_FALLING_TO_GROUND_EDITING"	"6"
+				"ANIM_GROUND_TO_FALLING_EDITING"	"8"
+			}
+		}
+		"MovementHandle" "HANDLE_8_POSITIONS"
+		"InvalidSurface" "WALL CEILING"
+		"DesiredFacing" "DESIRES_ANYTHING"
+	}
+	"Properties"
+	{
+		"CubeType"
+		{
+			"DefaultValue"		"0"
+			"Index"		"1"
+		}
+	}
+	"Exporting"
+	{
+		"Instances"
+		{
+			"0"
+			{
+				"Name" 	"instances/BEE2/styleless/discs/white_disc_table.vmf"
+				"EntityCount" 	"5"
+				"BrushCount" 	"0"
+				"BrushSideCount" 	"0"
+			}
+		}
+		"TargetName" 	"bsoa_disc"
+		"Offset"  	"64 64 64"
+	}
+}
