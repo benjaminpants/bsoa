@@ -2,9 +2,10 @@
 An UCP created for Beemod 2.4, or to more precise, built and designed for 4.36.1.
 This pack is not tested for versions later then the one listed above.
 # How to install
-1. Go to .zip(DO NOT EXTRACT)
-2. Copy zip folder to: `your-BEE2-folder/packages`
-3. Done!
+1. Install this custom build of Beemod 4.36.1 and install the base 4.36.1 packages (BSOA only supports 4.36.1): https://drive.google.com/file/d/19N8HLJ7h9B23noyEOGaynip9zcDBCNsR/view?usp=sharing
+2. Download the latest release, NOT the download code button.
+3. Copy zip folder to: `your-BEE2-folder/packages`
+4. Done!
 # Features
 This UCP features a bunch of miscellaneous stuff.
 - Bomb Dropper
