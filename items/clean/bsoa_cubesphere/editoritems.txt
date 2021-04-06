@@ -1,0 +1,73 @@
+"Item"
+{
+	"Type"		"ITEM_BSOA_CUBESPHERE"
+	"Editor"
+	{
+		"SubType"
+		{
+			"Name"		"Aperture Science Safteyirization Device"
+			"Model"
+			{
+				"ModelName"		"sentry.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"		"ASSD"
+				"Image" 		"palette/clean/bsoa_bombtarget.png"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+			}
+		}
+		"MovementHandle" "HANDLE_4_DIRECTIONS"
+		"InvalidSurface" "FLOOR CEILING"
+		"DesiredFacing" "DESIRES_ANYTHING"
+	}
+	"Properties"
+	{
+		"StartReversed"
+		{
+			"DefaultValue" "0"
+			"Index"		"1"
+		}
+	}
+	"Exporting"
+	{
+		"Instances"
+		{
+			"0"
+			{
+				"Name" 	"instances/BEE2/clean/cube_to_sphere.vmf"
+				"EntityCount" 	"19"
+				"BrushCount" 	"13"
+				"BrushSideCount" 	"78"
+			}
+		}
+		"TargetName" 	"bsoa_cubesphere"
+		"OccupiedVoxels"
+		{
+			"Voxel"
+			{
+				"Pos"		"0 0 0"
+			}
+		}
+	
+		"Offset"  	"64 64 64"
+		
+		"EmbeddedVoxels"
+		{
+			"Voxel"
+			{
+				"Pos"		"0 0 0"
+			}
+			"Voxel"
+			{
+				"Pos"		"0 0 -1"
+			}
+		}
+	}
+}

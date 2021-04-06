@@ -13,7 +13,7 @@
 			"Palette"
 			{
 				"Tooltip"		"SHAKE"
-				"Image" 		"palette/styleless/bsoa_shake.png"
+				"Image" 		"palette/clean/bsoa_shake.png"
 			}
 			"Sounds"
 			{

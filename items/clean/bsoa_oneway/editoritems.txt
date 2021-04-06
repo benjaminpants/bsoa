@@ -1,0 +1,69 @@
+"Item"
+{
+	"Type"		"ITEM_BSOA_ONEWAY"
+	"Editor"
+	{
+		"SubType"
+		{
+			"Name"		"Oneway"
+			"Model"
+			{
+				"ModelName"		"sentry.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"		"ONE WAY"
+				"Image" 		"palette/clean/bsoa_bombtarget.png"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+			}
+		}
+		"MovementHandle" "HANDLE_4_DIRECTIONS"
+		"InvalidSurface" "WALL CEILING"
+		"DesiredFacing" "DESIRES_ANYTHING"
+	}
+	"Properties"
+	{
+		"StartReversed"
+		{
+			"DefaultValue" "0"
+			"Index"		"1"
+		}
+	}
+	"Exporting"
+	{
+		"Instances"
+		{
+			"0"
+			{
+				"Name" 	"instances/BEE2/clean/one_way_arrow.vmf"
+				"EntityCount" 	"6"
+				"BrushCount" 	"7"
+				"BrushSideCount" 	"42"
+			}
+		}
+		"TargetName" 	"bsoa_oneway"
+		"OccupiedVoxels"
+		{
+			"Voxel"
+			{
+				"Pos"		"0 0 0"
+			}
+		}
+	
+		"Offset"  	"64 64 64"
+		
+		"EmbeddedVoxels"
+		{
+			"Voxel"
+			{
+				"Pos"		"0 0 0"
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+"Properties"
+	{
+	"Authors"		"MissingTextureMan101"
+	"Tags"			"BSOA;Test Elements"
+	"Description" 
+	{
+		"" "A path that you can only enter in one way."
+	}
+	"infoURL"		"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+	"Ent_count"     "7"
+	"Icon"
+		{
+			"0"	"bsoa_bombtarget"
+		}
+	}

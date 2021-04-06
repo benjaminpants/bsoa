@@ -3,6 +3,7 @@
 	"Type"		"ITEM_BSOA_PRESSURE_PLATE"
 	"Editor"
 	{
+		"SubTypeProperty"		"CubeType"
 		"SubType"
 		{
 			"Name"		"Wooden Pressure Plate"
