@@ -2,7 +2,8 @@
 An UCP created for Beemod 2.4, or to more precise, built and designed for 4.36.1.
 This pack is not tested for versions later then the one listed above.
 # How to install
-1. Install this custom build of Beemod 4.36.1 and install the base 4.36.1 packages (BSOA only supports 4.36.1): https://drive.google.com/file/d/19N8HLJ7h9B23noyEOGaynip9zcDBCNsR/view?usp=sharing
+(NOTE: You can skip this step!)
+1. Install this custom build of Beemod 4.36.1 and install the base 4.36.1 packages (BSOA was made for 4.36.1 but should run on any other version just fine): https://drive.google.com/file/d/19N8HLJ7h9B23noyEOGaynip9zcDBCNsR/view?usp=sharing
 2. Download the latest release, NOT the download code button.
 3. Copy zip folder to: `your-BEE2-folder/packages`
 4. Done!
